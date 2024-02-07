@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WDV101 Intro HTML and CSS</title>
+
+<style>
+
+	form	{
+		width:600px;
+		margin:auto;
+		background-color:lightblue;	
+		padding-left: 20px;
+	}
+	
+	form legend	{
+		font-size:larger;
+		text-align:center;
+	}
+	
+	
+
+
+</style>
+
+</head>
+
+<body>
+<h1>WDV101 Intro HTML and CSS</h1>
+<h2>UNIT 5 - Lesson 2 Server Side Forms</h2>
+<p>This is an example input form that will demonstrate how a form connects to a server side process.</p>
+<form id="form1" name="form1" method="post" action="formHandler.php">
+
+  <legend>Example Form</legend>
+  
+  <p>
+  	<label for="first_name">First Name:</label> 
+    <input type="text" name="first_name" id="first_name" />
+  </p>
+  
+  <p>
+  	<label for="last_name">Last Name:</label> 
+    <input type="text" name="last_name" id="last_name" />
+  </p>
+  
+  <p>
+  	<label for="school_name">School Name:</label> 
+    <input type="text" name="school_name" id="school_name" />
+  </p>
+  
+  <p>
+    <input type="submit" name="button" id="button" value="Submit" />
+    <input type="reset" name="button2" id="button2" value="Reset" />
+  </p>
+  
+</form>
+
+<p>&nbsp;</p>
+</body>
+
+</html>
