@@ -6,7 +6,9 @@
 
 <body>
 <h1>WDV101 Intro HTML and CSS</h1>
+<h2>WDV341 Intro PHP - Two Part Form Handler Example</h2>
 <h2>UNIT 3 Forms - Lesson 2 Server Side Processes</h2>
+
 <p>This page will demonstrate how a server side application will take the data that was entered on a form and display it within an HTML table. This example will work for any form. It is setup to read any or all fields on a form without needing any changes.  Other applications are more specific to the form they process and require updates anytime the form is changed.</p>
 
 <h3>Instructions</h3>
