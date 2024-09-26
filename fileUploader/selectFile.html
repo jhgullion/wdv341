@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>WDV341 Intro PHP</h1>
+   <h2>Unit-5 File Uploader (Images)</h2>
+   <h3>Image File Selection Example</h3> 
+   <!--
+    This form will allow the user to select one image type file to upload to their server
+    Only the following images will be allowed:   jpg,gif,png,svg
+    Gather the file name from the user.  "What file name they want to save it as on the server"
+   
+-->
+   <form method="post" enctype="multipart/form-data" action="fileUploader.php">
+        <p>
+            <label for="inFileName">File Name: </label>
+            <input type="text" name="inFileName" id="inFileName" placeholder="File name on server">  
+        </p>
+        <p>
+            <label for="inFile">Select a File:</label>
+            <input type="file" name="inFile" id="inFile" accept=".jpg,.gif,.png,.svg">
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Upload File">
+            <input type="reset">
+        </p>
+   </form>
+</body>
+</html>
