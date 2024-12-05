@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        
+        form p:nth-child(3){
+            display: none;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>WDV341 Intro PHP</h1>
+    <h2>Honey Pot Example</h2>
+    <form method="post" action="processInputForm.php">
+        <p>
+            <label for="inName">Name: </label>
+            <input type="text" name="inName" id="inName">
+        </p>
+        <p>
+            <label for="inSchool">School: </label>
+            <input type="text" name="inSchool" id="inSchool">
+        </p>
+
+        <p>
+            <label for="inCity">City: </label>
+            <input type="text" name="inCity" id="inCity" value="Des Moines">
+        </p>
+        
+        <p>
+            <input type="submit" name="submit" value="Submit Name">
+            <input type="reset">
+        </p>
+
+    </form>
+</body>
+</html>
